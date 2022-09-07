@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Rubik+Maze&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.bg-shadow-set {
+    background-color: rgba(71, 70, 70, 0.499);
+    box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+}
+
+.profile-details {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    float: left;
+    height: 100%;
+    width: 500px;
+    border-radius: 25px;
+}
+
+#dp_update_btn {
+    height: 150px;
+    width: 150px;
+    transition: 0.3s;
+    background: url('../assets/default_dp.jpg');
+    background-size: contain;
+}
+
+#dp_update_btn p {
+    color: transparent;
+    transition: 0.3s;
+}
+
+#dp_update_btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#dp_update_btn:hover p {
+    color: #000;
+    font-size: 1.2em;
+}
+
+#just-img1{
+    position: fixed;
+    transform: scale(2) rotateZ(20deg) rotateY(50deg) rotateX(310deg) translate(-50%, -100%);
+    z-index: -10;
+}
+#just-img2{
+    position: fixed;
+    transform: scale(2) rotateZ(30deg) rotateY(50deg) rotateX(310deg) translate(-60%, -140%) rotate(30deg);
+    z-index: -9;
+}
+
+.card1{
+    display: inline-block;
+    position: relative;
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+#cd1 img{
+    margin: 20px 10px 10px 20px;
+    display: inline-block;
+}
+
+#cd1 h2,#c-num{
+    text-align: center;
+}
+
+#cd1 #c-type{
+    display: inline-block;
+    float: right;
+    margin: 20px 20px 10px 10px;
+    font-family: 'Expletus Sans';
+    font-style: italic;
+}
+
+#cd1 #c-from{
+    display: inline-block;
+    float: left;
+    margin: 0px 0px 0px 30px;
+}
+
+#cd1 #c-to{
+    display: inline-block;
+    float: right;
+    margin: 0px 30px 0px 0px;
+}
+
+.cc{
+    background: linear-gradient(to right top, #B69B49, #2C514C);
+}
+
+.idc{
+    background:linear-gradient(to right top, #184e68 0%,#57ca85 100%);
+}
+
+.nots{
+    display: inline-block;
+    position: relative;
+    height: 350px;
+    width: 900px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width: 1090px) {
+    body{
+        padding: 0 5px;
+        overflow-y: scroll;
+    }
+    .profile-details{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .card1{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .nots{
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+.update_form{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid azure;
+    color: azure;
+    margin-bottom: 5px;
+}

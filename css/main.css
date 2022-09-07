@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Rubik+Maze&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.text-brand{
+    font-family: 'Expletus Sans', Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+body{
+    background: #212529;
+    overflow-x: hidden;
+}
+
+#img1-2-shade{
+    position: absolute;
+    top: 350px;
+    right: 200px;
+    z-index: -20;
+    background-color: #FACA30;
+    height: 80px;
+    width: 80px;
+    box-shadow: 21px 22px 300px 50px rgba(255,226,99,0.81);
+}
+
+#card-img1{
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    transform: rotate(-30deg);
+    z-index: -10;
+}
+
+#card-img2{
+    position: absolute;
+    top: 160px;
+    right: 90px;
+    transform: rotate(10deg);
+    z-index: -10;
+}
+
+#main-text{
+    height: 80vh;
+    max-width: 50vw;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+#main-text h1{
+    font-family: 'Rubik Maze', Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 4rem;
+}
+
+#main-text p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+#main-text p span{
+    font-size: 1.8rem;
+    color: #FACA30;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1090px) {
+    #main-text{
+        position: absolute;
+        top: 500px;
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+    #card-img1{
+        right: 0px;
+        transform: rotate(-30deg) scale(0.6) translate(100px,-100px);
+    }
+    #card-img2{
+        right: 0px;
+        transform: rotate(10deg) scale(0.6) translate(100px,-100px);
+    }
+}

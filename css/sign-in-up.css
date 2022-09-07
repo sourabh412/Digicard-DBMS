@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Rubik+Maze&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #212529;
+    overflow: hidden;
+    background-image: url('../assets/world.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.main-card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    border: none;
+    height: 80vh;
+    width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 20px 20px 196px -85px rgba(255,229,99,0.83);
+}
+
+.main-card1{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    border: none;
+    height: 80vh;
+    width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 20px 20px 196px -85px rgba(255, 148, 99, 0.83);
+}
+
+#login-inner-div1{
+    border-radius: 0 50px 50px 0;
+    border: none;
+    width: 65%;
+    height: 100%;
+    background: #27363A;
+    color: #BFBFBF;
+}
+
+#login-inner-div1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#login-brand{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 4rem;
+    font-family: 'Expletus Sans', Helvetica, sans-serif;
+    color: #BFBFBF;
+    text-decoration: none;
+}
+#login-brand:hover{
+    color: rgb(255, 229, 99);
+}
+
+#login-chip{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#login-chip1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    filter: grayscale(50%) brightness(30%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.6);
+}
+
+#login-2-h1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #BFBFBF;
+}
+
+#login-3-h1{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: #BFBFBF;
+}
